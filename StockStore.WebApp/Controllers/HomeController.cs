@@ -119,11 +119,6 @@ namespace StockStore.WebApp.Controllers
             return RedirectToAction("ShowOrder");
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

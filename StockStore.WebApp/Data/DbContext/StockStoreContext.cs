@@ -31,26 +31,26 @@ namespace StockStore.WebApp.Data
             modelBuilder.Entity<Category>().HasData(new Category()
             {
                 Id = 1,
-                Name = "Asp.Net Core",
-                Description = "Asp.Net Core 3"
+                Name = "لپ تاپ",
+                Description = "لپ تاپ"
             },
                 new Category()
                 {
                     Id = 2,
-                    Name = "لباس ورزشی",
-                    Description = "گروه لباس ورزشی"
+                    Name = "موبایل",
+                    Description = "موبایل"
                 },
                 new Category()
                 {
                     Id = 3,
-                    Name = "ساعت مچی",
-                    Description = "ساعت مچی"
+                    Name = "ساعت هوشمند",
+                    Description = "ساعت هوشمند"
                 },
                 new Category()
                 {
                     Id = 4,
-                    Name = "لوازم منزل",
-                    Description = "لوازم منزل"
+                    Name = "تلویزیون",
+                    Description = "تلویزیون"
                 }
             );
 
