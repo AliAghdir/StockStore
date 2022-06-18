@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StockStore.WebApp.Data;
 
 namespace StockStore.WebApp.Migrations
 {
     [DbContext(typeof(StockStoreContext))]
-    partial class StockStoreContextModelSnapshot : ModelSnapshot
+    [Migration("20220618070622_ChangeSeedDataInStockStoreContext")]
+    partial class ChangeSeedDataInStockStoreContext
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
